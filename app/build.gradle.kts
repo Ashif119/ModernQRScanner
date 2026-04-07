@@ -56,6 +56,8 @@ dependencies {
 
     // Coroutines
     implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.compose.ui.text.google.fonts)
 
 
     // Compose BOM (Bill of Materials)
