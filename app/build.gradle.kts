@@ -70,6 +70,7 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.activity.compose.v182)
+    implementation(libs.androidx.compose.material.icons.extended)
 
     // Debug only
     debugImplementation(libs.androidx.ui.tooling)
@@ -81,6 +82,7 @@ dependencies {
     ksp(libs.androidx.room.compiler)
 
     // Hilt (KSP wala)
+    implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
 
@@ -93,6 +95,7 @@ dependencies {
     implementation(libs.androidx.camera.camera2)
     implementation(libs.androidx.camera.lifecycle)
     implementation(libs.androidx.camera.view)
+    implementation(libs.accompanist.permissions)
 
     // ML Kit - QR Scanner
     implementation(libs.barcode.scanning)

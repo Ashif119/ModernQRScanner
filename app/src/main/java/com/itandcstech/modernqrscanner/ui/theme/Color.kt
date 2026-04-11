@@ -1,6 +1,17 @@
 package com.itandcstech.modernqrscanner.ui.theme
 import androidx.compose.ui.graphics.Color
 
+// ─── Brand Colors (Hamara custom) ───
+val NeonGreen = Color(0xFF00FF9C)
+val NeonGreenDark = Color(0xFF00CC7A)
+val DarkNavy = Color(0xFF0D0D1A)
+val DarkSurface = Color(0xFF1A1A2E)
+val DarkCard = Color(0xFF16213E)
+val DarkElevated = Color(0xFF1F2B47)
+val TextPrimary = Color(0xFFFFFFFF)
+val TextSecondary = Color(0xFFB0B0C3)
+val TextHint = Color(0xFF6B6B80)
+val ErrorRed = Color(0xFFFFB4AB)
 val primaryLight = Color(0xFF2B6A46)
 val onPrimaryLight = Color(0xFFFFFFFF)
 val primaryContainerLight = Color(0xFFAFF2C4)
@@ -109,10 +120,11 @@ val surfaceContainerLightHighContrast = Color(0xFFDEE3E5)
 val surfaceContainerHighLightHighContrast = Color(0xFFCFD5D6)
 val surfaceContainerHighestLightHighContrast = Color(0xFFC2C7C9)
 
-val primaryDark = Color(0xFF94D5A9)
-val onPrimaryDark = Color(0xFF00391F)
-val primaryContainerDark = Color(0xFF0C5130)
-val onPrimaryContainerDark = Color(0xFFAFF2C4)
+// ─── Theme Builder Colors (Dark) ───
+val primaryDark = NeonGreen           // Override with our green
+val onPrimaryDark = DarkNavy
+val primaryContainerDark = DarkElevated
+val onPrimaryContainerDark = NeonGreen
 val secondaryDark = Color(0xFF82D3E0)
 val onSecondaryDark = Color(0xFF00363D)
 val secondaryContainerDark = Color(0xFF004F58)
@@ -121,18 +133,18 @@ val tertiaryDark = Color(0xFF81D3DE)
 val onTertiaryDark = Color(0xFF00363C)
 val tertiaryContainerDark = Color(0xFF004F56)
 val onTertiaryContainerDark = Color(0xFF9DF0FB)
-val errorDark = Color(0xFFFFB4AB)
+val errorDark = ErrorRed
 val onErrorDark = Color(0xFF690005)
 val errorContainerDark = Color(0xFF93000A)
 val onErrorContainerDark = Color(0xFFFFDAD6)
-val backgroundDark = Color(0xFF0F1511)
-val onBackgroundDark = Color(0xFFDFE4DD)
-val surfaceDark = Color(0xFF0E1415)
-val onSurfaceDark = Color(0xFFDEE3E5)
-val surfaceVariantDark = Color(0xFF414942)
-val onSurfaceVariantDark = Color(0xFFC0C9C0)
-val outlineDark = Color(0xFF8A938B)
-val outlineVariantDark = Color(0xFF414942)
+val backgroundDark = DarkNavy         // Override with our dark navy
+val onBackgroundDark = TextPrimary
+val surfaceDark = DarkSurface         // Override
+val onSurfaceDark = TextPrimary
+val surfaceVariantDark = DarkCard     // Override
+val onSurfaceVariantDark = TextSecondary
+val outlineDark = TextHint
+val outlineVariantDark = DarkElevated
 val scrimDark = Color(0xFF000000)
 val inverseSurfaceDark = Color(0xFFDEE3E5)
 val inverseOnSurfaceDark = Color(0xFF2B3133)

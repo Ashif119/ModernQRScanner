@@ -273,3 +273,15 @@ Home Screen ←→ Camera Screen
 - `LaunchedEffect` - Runs once when composable enters composition
 - `animateFloatAsState` - Smooth alpha animation
 - `remember + mutableStateOf` - Local UI state
+
+### Camera Screen
+- Full screen CameraX preview
+- Dark overlay with green corner brackets
+- Real-time QR detection via ML Kit
+- Auto-saves result to Room DB
+- Result bottom sheet with:
+  - QR type badge
+  - Full content display
+  - Copy to clipboard
+  - Scan again button
+- Torch toggle support
