@@ -3,6 +3,24 @@
 ## Architecture Overview
 This project follows Clean Architecture with 3 layers:
 
+# ModernQRScanner 📷
+
+Modern QR & Barcode Scanner app built with the latest Android stack.
+
+## Tech Stack
+- **Language:** Kotlin
+- **UI:** Jetpack Compose
+- **Architecture:** MVVM + Clean Architecture
+- **Camera:** CameraX + ML Kit
+- **DI:** Hilt
+- **Database:** Room
+
+## Features
+- QR Code scanning
+- Barcode scanning  
+- Scan history
+- Copy/Share results
+
 ### 1. Data Layer (`data/`)
 - Room Database (local storage)
 - Repository Implementation
