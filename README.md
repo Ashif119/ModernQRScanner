@@ -7,6 +7,8 @@ This project follows Clean Architecture with 3 layers:
 
 Modern QR & Barcode Scanner app built with the latest Android stack.
 
+![img_1.png](img_1.png)  ![img.png](img.png)
+
 ## Tech Stack
 - **Language:** Kotlin
 - **UI:** Jetpack Compose
